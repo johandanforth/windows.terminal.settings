@@ -1,0 +1,66 @@
+{
+"list": [
+    {
+      // Make changes here to the powershell.exe profile.
+      "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+      "name": "PowerShell (org)",
+      "commandline": "powershell.exe",
+      "hidden": true
+    },
+    {
+      "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+      "name": "Command Prompt",
+      "commandline": "cmd.exe",
+      "hidden": false,
+      "tabColor": "#222222",
+      "backgroundImage": "c:/github/windows.terminal.settings/images/dos-bg.png",
+      "backgroundImageStretchMode": "none",
+      "backgroundImageAlignment": "bottomRight",
+      "useAcrylic": true,
+      "backgroundImageOpacity": 0.2,
+      "acrylicOpacity": 0.5
+    },
+    {
+      "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+      "hidden": false,
+      "name": "Azure Cloud Shell",
+      "source": "Windows.Terminal.Azure",
+      "fontFace": "CaskaydiaCove NF",
+      "backgroundImage": "c:/github/windows.terminal.settings/images/azure-cloud-shell-bg.png",
+      "backgroundImageStretchMode": "none",
+      "backgroundImageAlignment": "bottomRight",
+      "useAcrylic": true,
+      "backgroundImageOpacity": 0.2,
+      "acrylicOpacity": 0.5
+    },
+    {
+      "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+      "hidden": false,
+      "name": "PowerShell Core",
+      "source": "Windows.Terminal.PowershellCore",
+      "fontFace": "CaskaydiaCove NF",
+      "tabColor": "#2222ff",
+      "backgroundImage": "c:/github/windows.terminal.settings/images/powershell-bg.png",
+      "backgroundImageStretchMode": "none",
+      "backgroundImageAlignment": "bottomRight",
+      "useAcrylic": true,
+      "backgroundImageOpacity": 0.2,
+      "acrylicOpacity": 0.5,
+      "colorScheme": "Campbell Powershell"
+    },
+    {
+      "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+      "hidden": false,
+      "name": "Ubuntu",
+      "source": "Windows.Terminal.Wsl",
+      "tabColor": "#300A24",
+      "background": "#300A24",
+      "backgroundImage": "c:/github/windows.terminal.settings/images/ubuntu-bg.png",
+      "backgroundImageStretchMode": "none",
+      "backgroundImageAlignment": "bottomRight",
+      "useAcrylic": true,
+      "backgroundImageOpacity": 0.2,
+      "acrylicOpacity": 0.5
+    }
+  ]
+}

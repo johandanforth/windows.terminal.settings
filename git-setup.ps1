@@ -1,4 +1,4 @@
-echo "# windows.terminal.settings" >> README.md
+Write-Output "# windows.terminal.settings" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
